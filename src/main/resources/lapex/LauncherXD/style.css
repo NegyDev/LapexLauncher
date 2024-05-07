@@ -1,0 +1,21 @@
+.slider {
+    -fx-background-color: transparent;
+}
+
+.slider .track {
+    -fx-background-color: #303030;
+}
+
+.slider .thumb {
+    -fx-background-color: #666666;
+    -fx-background-insets: 0;
+    -fx-background-radius: 0;
+}
+
+.slider .thumb:hover {
+    -fx-background-color: #888888;
+}
+
+.slider .thumb:pressed {
+    -fx-background-color: #444444;
+}

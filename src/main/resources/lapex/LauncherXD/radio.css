@@ -1,0 +1,33 @@
+/* styles.css */
+
+.radio-button {
+    -fx-font-size: 14px;
+    -fx-padding: 4px;
+    -fx-text-fill: #474745;
+}
+
+.radio-button .radio {
+    -fx-background-color: #474745;
+    -fx-background-radius: 1%;
+}
+
+
+.radio-button .radio > .dot {
+    -fx-background-color: #F1E7E7;
+    -fx-background-radius: 1%;
+    -fx-opacity: 0;
+}
+
+.radio-button:selected {
+    -fx-text-fill: #474745;
+}
+
+.radio-button:selected .radio {
+    -fx-background-color: #3d3d3a;
+}
+
+.radio-button:selected .radio > .dot {
+    -fx-opacity: 1;
+    -fx-scale-x: 1.1;
+    -fx-scale-y: 1.1;
+}

@@ -1,0 +1,6 @@
+Button {
+    -fx-background-image: url('button-play.png');
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: transparent;
+}

@@ -1,0 +1,18 @@
+
+
+.progress-bar {
+    -fx-background-color: #353333; /* Arka plan rengi */
+}
+
+.progress-bar .track {
+    -fx-background-color: #353333; /* İlerlememiş alanı şeffaf yap */
+    -fx-background-insets: 1 1 2 1;
+    -fx-padding: 0.25em;
+}
+
+
+.progress-bar .bar {
+    -fx-background-color: #FFB134; /* İlerleme çubuğu rengi */
+    -fx-background-insets: 1 1 2 1;
+    -fx-padding: 0.25em;
+}
